@@ -98,6 +98,7 @@ cpdefine("inline:com-chilipeppr-workspace-sample", ["chilipeppr_ready"], functio
         addBillboardToWorkspaceMenu: function() {
             // get copy of billboard
             var billboardEl = this.getBillboard();
+            alert (this.id);
             $('#' + this.id + ' .com-chilipeppr-ws-billboard').append(billboardEl);
         },
         /**
